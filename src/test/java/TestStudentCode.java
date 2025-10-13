@@ -36,15 +36,15 @@ public class TestStudentCode {
     @DisplayName("partBSample()")   
     public void testPartBSample() {
         System.out.println("***Testing to see if partB(lines) returns 241861950");
-        assertEquals(241861950, StudentCode.partA(sampleLines),      
+        assertEquals(241861950, StudentCode.partB(sampleLines),      
         "Should be 241861950");          
     }
     
     @Test                                               
     @DisplayName("partBActual()")   
     public void testPartBActual() {
-        System.out.println("***Testing to see if partA(lines) returns 275765682");
-        assertEquals(275765682, StudentCode.partA(actualLines),      
+        System.out.println("***Testing to see if partB(lines) returns 275765682");
+        assertEquals(275765682, StudentCode.partB(actualLines),      
         "Should be 275765682");          
     }
     
