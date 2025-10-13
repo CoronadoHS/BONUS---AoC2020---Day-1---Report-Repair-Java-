@@ -41,8 +41,8 @@ public class TestStudentCode {
     }
     
     @Test                                               
-    @DisplayName("partAActual()")   
-    public void testPartAActual() {
+    @DisplayName("partBActual()")   
+    public void testPartBActual() {
         System.out.println("***Testing to see if partA(lines) returns 275765682");
         assertEquals(275765682, StudentCode.partA(actualLines),      
         "Should be 275765682");          
